@@ -17,11 +17,11 @@ GitHub API 只提供目前的累計下載量，沒有歷史資料。本專案透
 
 #### 1. 累積下載量（Badge）
 
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/asd880921/github-statcards/main/badges/overtranslate-downloads.json" alt="累積下載量" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Hon-Lu/github-statcards/main/badges/overtranslate-downloads.json" alt="累積下載量" />
 
 #### 2. 累積下載統計（Card）
 
-<img src="https://raw.githubusercontent.com/asd880921/github-statcards/main/cards/overtranslate-downloads-history.zh-TW.svg" alt="累積下載統計" />
+<img src="https://raw.githubusercontent.com/Hon-Lu/github-statcards/main/cards/overtranslate-downloads-history.zh-TW.svg" alt="累積下載統計" />
 
 ## 快速開始
 
@@ -75,7 +75,7 @@ GitHub API 只提供目前的累計下載量，沒有歷史資料。本專案透
 累積下載量（Badge）：
 
 ```html
-<a href="https://github.com/asd880921/github-statcards">
+<a href="https://github.com/Hon-Lu/github-statcards">
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/OWNER/REPOSITORY/main/badges/ID.json" alt="累積下載量" />
 </a>
 ```
@@ -83,7 +83,7 @@ GitHub API 只提供目前的累計下載量，沒有歷史資料。本專案透
 累積下載統計（Card）：
 
 ```html
-<a href="https://github.com/asd880921/github-statcards">
+<a href="https://github.com/Hon-Lu/github-statcards">
   <img src="https://raw.githubusercontent.com/OWNER/REPOSITORY/main/cards/ID-history.zh-TW.svg" alt="累積下載統計" />
 </a>
 ```
