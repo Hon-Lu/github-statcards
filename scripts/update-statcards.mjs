@@ -5,7 +5,6 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { appendSnapshot, aggregate } from './history.mjs';
 import { renderHistorySvg, SUPPORTED_LOCALES } from './render-history-svg.mjs';
-import { loadIconMarkup } from './load-icon.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const TOKEN = process.env.GITHUB_TOKEN ?? '';
@@ -76,7 +75,7 @@ async function buildHistory(badge, snapshot) {
   const { rows } = await appendSnapshot(id, snapshot.updatedAt, snapshot.total);
   const offsetMinutes = parseTimezone(timezone);
   const aggregated = aggregate(rows, { period, limit, offsetMinutes });
-  const iconMarkup = await loadIconMarkup(ROOT, icon);
+  const iconMarkup = icon ? await readFile(join(ROOT, icon), 'utf8') : '';
 
   // 新增輸出目錄時，記得同步加進 workflow 的 `git add` 清單，
   // 否則 workflow 會照常成功，但新目錄的產出永遠不會被提交。

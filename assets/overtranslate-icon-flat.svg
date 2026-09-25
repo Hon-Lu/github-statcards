@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 由 overtranslate-icon.svg 轉成的無濾鏡版，給統計卡用。
+     陰影與光暈改用疊層半透明形狀重現、圓角遮罩改成 clipPath：
+     Safari 以 <img> 顯示 SVG 時會用低解析度計算濾鏡與遮罩，在 iPhone 上會糊；
+     也不能改內嵌 PNG，直接開 raw.githubusercontent.com 時 CSP 會擋掉 data URI 圖片。
+     原稿改了之後要重新轉一份。 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="16 16 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">OverTranslate</title>
+  <desc id="desc">A stylized 譯 character on an OCR translation panel with a scan beam and translated text lines.</desc>
+  <defs>
+    <clipPath id="tile-clip">
+      <rect x="20.5" y="20.5" width="471" height="471" rx="111.5"/>
+    </clipPath>
+    <linearGradient id="tile" x1="66" y1="38" x2="454" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19334F"/>
+      <stop offset="0.46" stop-color="#0C1A2B"/>
+      <stop offset="1" stop-color="#050B13"/>
+    </linearGradient>
+    <linearGradient id="tile-rim" x1="20" y1="20" x2="492" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#75C4D5"/>
+      <stop offset="0.18" stop-color="#477B91"/>
+      <stop offset="0.38" stop-color="#23485D"/>
+      <stop offset="0.48" stop-color="#0E202D"/>
+      <stop offset="0.52" stop-color="#091720"/>
+      <stop offset="0.64" stop-color="#1C4655"/>
+      <stop offset="0.82" stop-color="#3D8798"/>
+      <stop offset="1" stop-color="#5EBBC5"/>
+    </linearGradient>
+    <radialGradient id="tile-crown" cx="0" cy="0" r="1" gradientTransform="translate(256 24) rotate(90) scale(190 330)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9DECF2" stop-opacity="0.1"/>
+      <stop offset="0.42" stop-color="#4CA4B8" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#1D5C72" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="152" y1="124" x2="446" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10243A"/>
+      <stop offset="1" stop-color="#050C15"/>
+    </linearGradient>
+    <linearGradient id="panel-rim" x1="138" y1="120" x2="464" y2="458" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A6FCFF"/>
+      <stop offset="0.16" stop-color="#62EFF6"/>
+      <stop offset="0.34" stop-color="#29AABD"/>
+      <stop offset="0.47" stop-color="#176278"/>
+      <stop offset="0.53" stop-color="#104A60"/>
+      <stop offset="0.66" stop-color="#2296A9"/>
+      <stop offset="0.84" stop-color="#4CE0E8"/>
+      <stop offset="1" stop-color="#91F9FC"/>
+    </linearGradient>
+    <linearGradient id="rear-panel-rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2A4563"/>
+      <stop offset="0.16" stop-color="#2A4563"/>
+      <stop offset="0.34" stop-color="#20374D"/>
+      <stop offset="0.47" stop-color="#152A3C"/>
+      <stop offset="0.53" stop-color="#102333"/>
+      <stop offset="0.66" stop-color="#1D3448"/>
+      <stop offset="0.84" stop-color="#29445E"/>
+      <stop offset="1" stop-color="#2A4563"/>
+    </linearGradient>
+    <linearGradient id="mark-left" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#82F7FC"/>
+      <stop offset="0.48" stop-color="#34CFDD"/>
+      <stop offset="1" stop-color="#1595B1"/>
+    </linearGradient>
+    <linearGradient id="mark-right" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#B0FDFF"/>
+      <stop offset="0.48" stop-color="#4CE8F2"/>
+      <stop offset="1" stop-color="#1EBBD4"/>
+    </linearGradient>
+    <linearGradient id="mark-left-side" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#168AA4"/>
+      <stop offset="1" stop-color="#07536B"/>
+    </linearGradient>
+    <linearGradient id="mark-right-side" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1BA9BF"/>
+      <stop offset="1" stop-color="#087087"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="172" y1="0" x2="432" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F4FB" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#70F4FB" stop-opacity="0.52"/>
+      <stop offset="0.5" stop-color="#D2FEFF" stop-opacity="0.96"/>
+      <stop offset="0.8" stop-color="#70F4FB" stop-opacity="0.52"/>
+      <stop offset="1" stop-color="#70F4FB" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(410 78) rotate(134) scale(204)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#69F2FF" stop-opacity="0.17"/>
+      <stop offset="1" stop-color="#69F2FF" stop-opacity="0"/>
+    </radialGradient>
+    <path id="translation-glyph" fill-rule="evenodd" d="M36.23 161.33V184.28H53.81V161.33H36.23ZM18.55 144.53H71.39V209.57H53.81V201.17H36.23V212.7H18.55V144.53ZM120.61 134.77L122.05 138.69L123.36 142.36L124.54 145.77L125.59 148.93H144.43L147.68 142.02L150.2 134.77H120.61ZM18.55 114.36H72.75V130.96H18.36L18.55 114.36ZM18.36 85.16H72.75V101.56H18.36V85.16ZM155.18 55.96V71.1H168.16V55.96H155.18ZM127.25 55.96V71.1H140.04V55.96H127.25ZM99.02 55.96V71.1H111.43V55.96H99.02ZM82.42 41.31H184.57V85.74H141.6V94.73H184.38V108.89H141.6V119.53H187.99V134.77H168.55L167.72 137.37L166.48 140.6L164.84 144.45L162.79 148.93H183.4V163.48H141.41V175.88H187.4V190.72H141.41V213.77H124.02V190.72H77.64V175.88H124.02V163.48H83.59V148.93H107.42L106.27 144.93L104.98 141.24L103.54 137.85L101.95 134.77H78.03V119.53H124.22V108.89H83.2V94.73H124.22V85.74H82.42V41.31ZM49.8 35.74L50.76 37.78L51.77 40.27L52.84 43.22L53.96 46.63L55.02 49.97L55.92 52.7L56.66 54.83L57.23 56.35H76.56V72.56H14.16V56.35H38.18L38.03 55.78L37.71 54.75L37.24 53.26L36.6 51.32L35.8 48.92L34.83 46.06L33.71 42.74L32.42 38.97L49.8 35.74Z"/>
+    <path id="translation-left-glyph" fill-rule="evenodd" d="M36.23 161.33V184.28H53.81V161.33H36.23ZM18.55 144.53H71.39V209.57H53.81V201.17H36.23V212.7H18.55V144.53ZM18.55 114.36H72.75V130.96H18.36L18.55 114.36ZM18.36 85.16H72.75V101.56H18.36V85.16ZM49.8 35.74L50.76 37.78L51.77 40.27L52.84 43.22L53.96 46.63L55.02 49.97L55.92 52.7L56.66 54.83L57.23 56.35H76.56V72.56H14.16V56.35H38.18L38.03 55.78L37.71 54.75L37.24 53.26L36.6 51.32L35.8 48.92L34.83 46.06L33.71 42.74L32.42 38.97L49.8 35.74Z"/>
+    <path id="translation-right-glyph" fill-rule="evenodd" d="M120.61 134.77L122.05 138.69L123.36 142.36L124.54 145.77L125.59 148.93H144.43L147.68 142.02L150.2 134.77H120.61ZM155.18 55.96V71.1H168.16V55.96H155.18ZM127.25 55.96V71.1H140.04V55.96H127.25ZM99.02 55.96V71.1H111.43V55.96H99.02ZM82.42 41.31H184.57V85.74H141.6V94.73H184.38V108.89H141.6V119.53H187.99V134.77H168.55L167.72 137.37L166.48 140.6L164.84 144.45L162.79 148.93H183.4V163.48H141.41V175.88H187.4V190.72H141.41V213.77H124.02V190.72H77.64V175.88H124.02V163.48H83.59V148.93H107.42L106.27 144.93L104.98 141.24L103.54 137.85L101.95 134.77H78.03V119.53H124.22V108.89H83.2V94.73H124.22V85.74H82.42V41.31Z"/>
+  </defs>
+  <g clip-path="url(#tile-clip)">
+    <rect width="512" height="512" fill="url(#tile)"/>
+    <rect width="512" height="260" fill="url(#tile-crown)"/>
+    <circle cx="410" cy="78" r="204" fill="url(#ambient)"/>
+    <rect x="20.5" y="20.5" width="471" height="471" rx="111.5" fill="none" stroke="url(#tile-rim)" stroke-width="10" aria-hidden="true"/>
+  </g>
+  <g aria-hidden="true" transform="matrix(1, 0, 0, 1, -16.012491, -32.129486)">
+    <rect x="68" y="98" width="286" height="306" rx="52" fill="#12243A" stroke="url(#rear-panel-rim)" stroke-width="4"/>
+    <path d="M70 158H352" stroke="#2A4563" stroke-width="4"/>
+    <circle cx="102" cy="128" r="8" fill="#4A6483"/>
+    <circle cx="128" cy="128" r="8" fill="#4A6483"/>
+    <circle cx="154" cy="128" r="8" fill="#4A6483"/>
+    <rect x="98" y="190" width="132" height="14" rx="7" fill="#536A86"/>
+    <rect x="98" y="220" width="184" height="14" rx="7" fill="#405570"/>
+    <rect x="98" y="250" width="152" height="14" rx="7" fill="#344861"/>
+  </g>
+  <g style="" transform="matrix(1.020553, 0, 0, 1.020553, -23.533693, -16.382576)">
+    <g aria-hidden="true">
+      <rect x="152" y="148" width="298" height="310" rx="48" fill="#000711" fill-opacity="0.13"/>
+      <rect x="145" y="141" width="312" height="324" rx="55" fill="#000711" fill-opacity="0.13"/>
+      <rect x="138" y="134" width="326" height="338" rx="62" fill="#000711" fill-opacity="0.13"/>
+      <rect x="131" y="127" width="340" height="352" rx="69" fill="#000711" fill-opacity="0.13"/>
+      <rect x="124" y="120" width="354" height="366" rx="76" fill="#000711" fill-opacity="0.13"/>
+      <rect x="117" y="113" width="368" height="380" rx="83" fill="#000711" fill-opacity="0.13"/>
+      <rect x="110" y="106" width="382" height="394" rx="90" fill="#000711" fill-opacity="0.13"/>
+    </g>
+    <g>
+      <rect x="138" y="120" width="326" height="338" rx="62" fill="url(#panel)" stroke="url(#panel-rim)" stroke-width="8"/>
+    </g>
+    <rect x="149" y="131" width="304" height="316" rx="51" fill="none" stroke="#2C7890" stroke-width="2" opacity="0.5"/>
+    <path d="M170 260H432" stroke="url(#scan)" stroke-width="22" opacity="0.05"/>
+    <path d="M170 260H432" stroke="url(#scan)" stroke-width="15" opacity="0.08"/>
+    <path d="M170 260H432" stroke="url(#scan)" stroke-width="9" opacity="0.12"/>
+    <g aria-hidden="true" fill="#00050B" stroke="#00050B" stroke-linejoin="round">
+      <g stroke-width="12" opacity="0.14"><use href="#translation-left-glyph" transform="translate(198 155)"/><use href="#translation-right-glyph" transform="translate(204 155)"/></g>
+      <g stroke-width="8" opacity="0.2"><use href="#translation-left-glyph" transform="translate(198 155)"/><use href="#translation-right-glyph" transform="translate(204 155)"/></g>
+      <g stroke-width="4" opacity="0.28"><use href="#translation-left-glyph" transform="translate(198 155)"/><use href="#translation-right-glyph" transform="translate(204 155)"/></g>
+      <g stroke-width="0.5" opacity="0.36"><use href="#translation-left-glyph" transform="translate(198 155)"/><use href="#translation-right-glyph" transform="translate(204 155)"/></g>
+    </g>
+    <g id="translation-mark" aria-hidden="true">
+      <use href="#translation-left-glyph" transform="translate(198 148)" fill="url(#mark-left-side)" stroke="#06445B" stroke-width="3" stroke-linejoin="bevel"/>
+      <use href="#translation-right-glyph" transform="translate(204 148)" fill="url(#mark-right-side)" stroke="#075B70" stroke-width="3" stroke-linejoin="bevel"/>
+      <use href="#translation-left-glyph" transform="translate(198 142)" fill="url(#mark-left)" stroke="#56E9F2" stroke-width="2.4" stroke-linejoin="bevel"/>
+      <use href="#translation-right-glyph" transform="translate(204 142)" fill="url(#mark-right)" stroke="#5CEBF3" stroke-width="2.4" stroke-linejoin="bevel"/>
+    </g>
+    <path d="M176 260H426" stroke="url(#scan)" stroke-width="3"/>
+    <g aria-hidden="true">
+      <rect x="196" y="382" width="184" height="15" rx="7.5" fill="#52EAF5" fill-opacity="0.66"/>
+      <rect x="196" y="410" width="138" height="15" rx="7.5" fill="#52EAF5" fill-opacity="0.36"/>
+    </g>
+  </g>
+</svg>
