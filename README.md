@@ -17,11 +17,11 @@ The GitHub API only provides the current cumulative download count, not historic
 
 #### 1. Cumulative Downloads (Badge)
 
-<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/asd880921/github-statcards/main/badges/overtranslate-downloads.json" alt="Cumulative downloads" />
+<img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Hon-Lu/github-statcards/main/badges/overtranslate-downloads.json" alt="Cumulative downloads" />
 
 #### 2. Cumulative Download Statistics (Card)
 
-<img src="https://raw.githubusercontent.com/asd880921/github-statcards/main/cards/overtranslate-downloads-history.svg" alt="Cumulative download statistics" />
+<img src="https://raw.githubusercontent.com/Hon-Lu/github-statcards/main/cards/overtranslate-downloads-history.svg" alt="Cumulative download statistics" />
 
 ## Quick Start
 
@@ -75,7 +75,7 @@ The examples below link each image back to this repository as attribution.
 Cumulative Downloads (Badge):
 
 ```html
-<a href="https://github.com/asd880921/github-statcards">
+<a href="https://github.com/Hon-Lu/github-statcards">
   <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/OWNER/REPOSITORY/main/badges/ID.json" alt="Cumulative downloads" />
 </a>
 ```
@@ -83,7 +83,7 @@ Cumulative Downloads (Badge):
 Cumulative Download Statistics (Card):
 
 ```html
-<a href="https://github.com/asd880921/github-statcards">
+<a href="https://github.com/Hon-Lu/github-statcards">
   <img src="https://raw.githubusercontent.com/OWNER/REPOSITORY/main/cards/ID-history.svg" alt="Cumulative download statistics" />
 </a>
 ```
