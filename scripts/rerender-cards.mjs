@@ -5,6 +5,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readHistory, aggregate } from './history.mjs';
 import { renderHistorySvg, SUPPORTED_LOCALES } from './render-history-svg.mjs';
+import { loadIconMarkup } from './load-icon.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -40,7 +41,7 @@ for (const badge of config.badges) {
   const rows = await readHistory(id);
   const offsetMinutes = parseTimezone(timezone);
   const aggregated = aggregate(rows, { period, limit, offsetMinutes });
-  const iconMarkup = icon ? await readFile(join(ROOT, icon), 'utf8') : '';
+  const iconMarkup = await loadIconMarkup(ROOT, icon);
 
   await mkdir(join(ROOT, 'cards'), { recursive: true });
 

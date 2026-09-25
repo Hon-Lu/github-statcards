@@ -60,7 +60,7 @@ Add a `history` block to the badge configuration:
 | `timezone` | Time zone used for each period, such as `+08:00`; defaults to UTC (`+00:00`) |
 | `title` | Card title; defaults to the repository name |
 | `accent` | Chart color; defaults to the badge's `color` |
-| `icon` | Path to the card's SVG icon, relative to the repository root |
+| `icon` | Path to the card's icon (SVG or PNG), relative to the repository root. PNG is embedded as a data URI; prefer it when the icon uses SVG filters, which Safari renders blurry on high-DPI screens |
 | `locales` | Locales to generate; supports `en` and `zh-TW`, and defaults to `["en"]` |
 
 The first locale in `locales` uses the plain filename. Additional locales receive a suffix. For example:
