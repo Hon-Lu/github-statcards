@@ -2,8 +2,9 @@ name: Update statcards
 
 on:
   schedule:
-    # 每天台灣時間 11:17、17:17、23:17 更新一次（UTC+8）
-    - cron: '17 3,9,15 * * *'
+    # 排程台灣時間 03:17、11:17（UTC+8），GitHub 實際約延遲 4～7 小時
+    # 換日前的快照由 Cloudflare Worker 於台灣時間 23:50 以 workflow_dispatch 觸發
+    - cron: '17 3,19 * * *'
   workflow_dispatch:
   push:
     branches: [main]
