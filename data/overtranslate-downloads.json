@@ -1,11 +1,11 @@
 {
   "id": "overtranslate-downloads",
   "repo": "Hon-Lu/OverTranslate",
-  "total": 22842,
+  "total": 23001,
   "perAsset": {
-    "OverTranslate-win-Portable.zip": 6343,
-    "OverTranslate-win-Setup.exe": 16499
+    "OverTranslate-win-Portable.zip": 6379,
+    "OverTranslate-win-Setup.exe": 16622
   },
   "releaseCount": 59,
-  "updatedAt": "2026-11-20T11:35:59.613Z"
+  "updatedAt": "2026-11-20T16:25:19.058Z"
 }
