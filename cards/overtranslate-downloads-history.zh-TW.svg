@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" lang="zh-TW" aria-label="OverTranslate：累積下載次數 26,999，最近一天 +271，近 14 天共 +7641。">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" lang="zh-TW" aria-label="OverTranslate：累積下載次數 27,375，最近一天 +647，近 14 天共 +8017。">
   <title>OverTranslate 下載量</title>
-  <desc>OverTranslate：累積下載次數 26,999，最近一天 +271，近 14 天共 +7641。</desc>
+  <desc>OverTranslate：累積下載次數 27,375，最近一天 +647，近 14 天共 +8017。</desc>
   <defs>
     <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="var(--card-from)"/>
@@ -198,13 +198,13 @@
 </svg>
   <text x="74" y="46" class="name">OverTranslate</text>
 
-  <text x="28" y="128" class="total">26,999</text>
+  <text x="28" y="128" class="total">27,375</text>
   <g transform="translate(28.0 139.8) scale(0.9344)" class="dl-icon"><path d="M8 2.1V10"/><path d="M4.5 6.7 8 10.2 11.5 6.7"/><path d="M3 13.7h10"/></g>
   <text x="50.0" y="152" class="total-label">累積下載次數</text>
 
-  <line x1="28" y1="171" x2="232" y2="171" class="grid"/><text x="28" y="188" class="stat-label">最近一天</text><text x="232" y="188" text-anchor="end" class="stat-value accent">+271</text>
-  <line x1="28" y1="197" x2="232" y2="197" class="grid"/><text x="28" y="214" class="stat-label">近 14 天</text><text x="232" y="214" text-anchor="end" class="stat-value">+7,641</text>
-  <line x1="28" y1="223" x2="232" y2="223" class="grid"/><text x="28" y="240" class="stat-label">平均每日</text><text x="232" y="240" text-anchor="end" class="stat-value">+546</text>
+  <line x1="28" y1="171" x2="232" y2="171" class="grid"/><text x="28" y="188" class="stat-label">最近一天</text><text x="232" y="188" text-anchor="end" class="stat-value accent">+647</text>
+  <line x1="28" y1="197" x2="232" y2="197" class="grid"/><text x="28" y="214" class="stat-label">近 14 天</text><text x="232" y="214" text-anchor="end" class="stat-value">+8,017</text>
+  <line x1="28" y1="223" x2="232" y2="223" class="grid"/><text x="28" y="240" class="stat-label">平均每日</text><text x="232" y="240" text-anchor="end" class="stat-value">+573</text>
 
   <line x1="262" y1="26" x2="262" y2="274" stroke="url(#rule)" stroke-width="1"/>
 
@@ -218,12 +218,12 @@
   <line x1="306" y1="125.2" x2="732" y2="125.2" class="grid"/><text x="296" y="128.7" text-anchor="end" class="axis">24,000</text>
   <line x1="306" y1="101.6" x2="732" y2="101.6" class="grid"/><text x="296" y="105.1" text-anchor="end" class="axis">26,000</text>
   <line x1="306" y1="78.0" x2="732" y2="78.0" class="grid"/><text x="296" y="81.5" text-anchor="end" class="axis">28,000</text>
-  <path d="M 306.0 173.7 L 338.8 167.4 L 371.5 161.5 L 404.3 155.5 L 437.1 150.3 L 469.8 144.3 L 502.6 138.9 L 535.4 132.3 L 568.2 126.5 L 600.9 119.4 L 633.7 115.5 L 666.5 101.2 L 699.2 93.0 L 732.0 89.8 L 732.0 196 L 306.0 196 Z" fill="url(#area)"/>
-  <path d="M 306.0 173.7 L 338.8 167.4 L 371.5 161.5 L 404.3 155.5 L 437.1 150.3 L 469.8 144.3 L 502.6 138.9 L 535.4 132.3 L 568.2 126.5 L 600.9 119.4 L 633.7 115.5 L 666.5 101.2 L 699.2 93.0 L 732.0 89.8" class="line"/>
-  <circle cx="732.0" cy="89.8" r="7" class="halo"/><circle cx="732.0" cy="89.8" r="5.4" class="ring"/><circle cx="732.0" cy="89.8" r="3.4" class="dot"/>
+  <path d="M 306.0 173.7 L 338.8 167.4 L 371.5 161.5 L 404.3 155.5 L 437.1 150.3 L 469.8 144.3 L 502.6 138.9 L 535.4 132.3 L 568.2 126.5 L 600.9 119.4 L 633.7 115.5 L 666.5 101.2 L 699.2 93.0 L 732.0 85.4 L 732.0 196 L 306.0 196 Z" fill="url(#area)"/>
+  <path d="M 306.0 173.7 L 338.8 167.4 L 371.5 161.5 L 404.3 155.5 L 437.1 150.3 L 469.8 144.3 L 502.6 138.9 L 535.4 132.3 L 568.2 126.5 L 600.9 119.4 L 633.7 115.5 L 666.5 101.2 L 699.2 93.0 L 732.0 85.4" class="line"/>
+  <circle cx="732.0" cy="85.4" r="7" class="halo"/><circle cx="732.0" cy="85.4" r="5.4" class="ring"/><circle cx="732.0" cy="85.4" r="3.4" class="dot"/>
 
   <line x1="306" y1="240" x2="732" y2="240" class="grid"/>
-  <path d="M 306.0 240 V 231.6 Q 306.0 228.6 309.0 228.6 H 316.8 Q 319.8 228.6 319.8 231.6 V 240 Z" class="bar"/><path d="M 331.9 240 V 231.4 Q 331.9 228.4 334.9 228.4 H 342.7 Q 345.7 228.4 345.7 231.4 V 240 Z" class="bar"/><path d="M 364.7 240 V 232.3 Q 364.7 229.3 367.7 229.3 H 375.4 Q 378.4 229.3 378.4 232.3 V 240 Z" class="bar"/><path d="M 397.4 240 V 231.9 Q 397.4 228.9 400.4 228.9 H 408.2 Q 411.2 228.9 411.2 231.9 V 240 Z" class="bar"/><path d="M 430.2 240 V 233.6 Q 430.2 230.6 433.2 230.6 H 441.0 Q 444.0 230.6 444.0 233.6 V 240 Z" class="bar"/><path d="M 463.0 240 V 232.0 Q 463.0 229.0 466.0 229.0 H 473.7 Q 476.7 229.0 476.7 232.0 V 240 Z" class="bar"/><path d="M 495.7 240 V 233.0 Q 495.7 230.0 498.7 230.0 H 506.5 Q 509.5 230.0 509.5 233.0 V 240 Z" class="bar"/><path d="M 528.5 240 V 231.0 Q 528.5 228.0 531.5 228.0 H 539.3 Q 542.3 228.0 542.3 231.0 V 240 Z" class="bar"/><path d="M 561.3 240 V 232.4 Q 561.3 229.4 564.3 229.4 H 572.0 Q 575.0 229.4 575.0 232.4 V 240 Z" class="bar"/><path d="M 594.0 240 V 230.1 Q 594.0 227.1 597.0 227.1 H 604.8 Q 607.8 227.1 607.8 230.1 V 240 Z" class="bar"/><path d="M 626.8 240 V 235.8 Q 626.8 232.8 629.8 232.8 H 637.6 Q 640.6 232.8 640.6 235.8 V 240 Z" class="bar"/><path d="M 659.6 240 V 217.0 Q 659.6 214.0 662.6 214.0 H 670.3 Q 673.3 214.0 673.3 217.0 V 240 Z" class="bar"/><path d="M 692.3 240 V 228.0 Q 692.3 225.0 695.3 225.0 H 703.1 Q 706.1 225.0 706.1 228.0 V 240 Z" class="bar"/><path d="M 718.2 240 V 237.2 Q 718.2 234.2 721.2 234.2 H 729.0 Q 732.0 234.2 732.0 237.2 V 240 Z" class="bar bar-latest"/><text x="725.1" y="230.2" text-anchor="middle" class="bar-value bar-value-latest">271</text>
+  <path d="M 306.0 240 V 231.6 Q 306.0 228.6 309.0 228.6 H 316.8 Q 319.8 228.6 319.8 231.6 V 240 Z" class="bar"/><path d="M 331.9 240 V 231.4 Q 331.9 228.4 334.9 228.4 H 342.7 Q 345.7 228.4 345.7 231.4 V 240 Z" class="bar"/><path d="M 364.7 240 V 232.3 Q 364.7 229.3 367.7 229.3 H 375.4 Q 378.4 229.3 378.4 232.3 V 240 Z" class="bar"/><path d="M 397.4 240 V 231.9 Q 397.4 228.9 400.4 228.9 H 408.2 Q 411.2 228.9 411.2 231.9 V 240 Z" class="bar"/><path d="M 430.2 240 V 233.6 Q 430.2 230.6 433.2 230.6 H 441.0 Q 444.0 230.6 444.0 233.6 V 240 Z" class="bar"/><path d="M 463.0 240 V 232.0 Q 463.0 229.0 466.0 229.0 H 473.7 Q 476.7 229.0 476.7 232.0 V 240 Z" class="bar"/><path d="M 495.7 240 V 233.0 Q 495.7 230.0 498.7 230.0 H 506.5 Q 509.5 230.0 509.5 233.0 V 240 Z" class="bar"/><path d="M 528.5 240 V 231.0 Q 528.5 228.0 531.5 228.0 H 539.3 Q 542.3 228.0 542.3 231.0 V 240 Z" class="bar"/><path d="M 561.3 240 V 232.4 Q 561.3 229.4 564.3 229.4 H 572.0 Q 575.0 229.4 575.0 232.4 V 240 Z" class="bar"/><path d="M 594.0 240 V 230.1 Q 594.0 227.1 597.0 227.1 H 604.8 Q 607.8 227.1 607.8 230.1 V 240 Z" class="bar"/><path d="M 626.8 240 V 235.8 Q 626.8 232.8 629.8 232.8 H 637.6 Q 640.6 232.8 640.6 235.8 V 240 Z" class="bar"/><path d="M 659.6 240 V 217.0 Q 659.6 214.0 662.6 214.0 H 670.3 Q 673.3 214.0 673.3 217.0 V 240 Z" class="bar"/><path d="M 692.3 240 V 228.0 Q 692.3 225.0 695.3 225.0 H 703.1 Q 706.1 225.0 706.1 228.0 V 240 Z" class="bar"/><path d="M 718.2 240 V 229.1 Q 718.2 226.1 721.2 226.1 H 729.0 Q 732.0 226.1 732.0 229.1 V 240 Z" class="bar bar-latest"/><text x="725.1" y="222.1" text-anchor="middle" class="bar-value bar-value-latest">647</text>
 
   <text x="306.0" y="260" text-anchor="start" class="axis">11-14</text>
   
@@ -239,5 +239,5 @@
   
   
   <text x="732.0" y="260" text-anchor="end" class="axis axis-latest">11-27</text>
-  <text x="732" y="282" text-anchor="end" class="footer">更新於 2026-11-27 10:09 UTC+8</text>
+  <text x="732" y="282" text-anchor="end" class="footer">更新於 2026-11-27 20:14 UTC+8</text>
 </svg>
